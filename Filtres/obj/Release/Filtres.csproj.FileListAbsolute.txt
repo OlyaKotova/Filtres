@@ -1,0 +1,17 @@
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\bin\Release\Filtres.exe.config
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\bin\Release\Filtres.exe
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\bin\Release\Filtres.pdb
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Release\Filtres.Form1.resources
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Release\Filtres.Properties.Resources.resources
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Release\Filtres.csproj.GenerateResource.Cache
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Release\Filtres.exe
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Release\Filtres.pdb
+C:\Users\Asus\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Release\Filtres.csprojResolveAssemblyReference.cache
+D:\Filtres\Filtres\bin\Release\Filtres.exe.config
+D:\Filtres\Filtres\obj\Release\Filtres.exe
+D:\Filtres\Filtres\obj\Release\Filtres.pdb
+D:\Filtres\Filtres\bin\Release\Filtres.exe
+D:\Filtres\Filtres\bin\Release\Filtres.pdb
+D:\Filtres\Filtres\obj\Release\Filtres.Form1.resources
+D:\Filtres\Filtres\obj\Release\Filtres.Properties.Resources.resources
+D:\Filtres\Filtres\obj\Release\Filtres.csproj.GenerateResource.Cache
