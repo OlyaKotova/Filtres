@@ -7,16 +7,16 @@ using System.Drawing;
 
 namespace Filtres
 {
-    class BrightnessFilter:FewFiltres
+    class BrightnessMinus : FewFiltres
     {
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {
             Color sourceColor = sourceImage.GetPixel(x, y);
-            int k=50;
-            Color resultColor=Color.FromArgb(
-                Clamp(sourceColor.R+k,0,255),
-                Clamp(sourceColor.G+k,0,255),
-                Clamp(sourceColor.B+k,0,255)
+            int k = -50;
+            Color resultColor = Color.FromArgb(
+                Clamp(sourceColor.R + k, 0, 255),
+                Clamp(sourceColor.G + k, 0, 255),
+                Clamp(sourceColor.B + k, 0, 255)
                 );
             return resultColor;
         }

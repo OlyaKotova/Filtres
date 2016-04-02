@@ -14,7 +14,7 @@ namespace Filtres
         {
             int x0 = (sourceImage.Width - 1) / 2;
             int y0 = (sourceImage.Height - 1) / 2;
-            int tg = 45;
+            int tg = 100;
 
             Color resultColor;
            
@@ -22,10 +22,9 @@ namespace Filtres
             int l = (int)((x - x0) * Math.Sin(tg) + (y - y0) * Math.Cos(tg) + y0);
 
             if ((k >= 0) && (l >= 0) && (k <= sourceImage.Width - 1) && (l <= sourceImage.Height - 1))
-            { resultColor = sourceImage.GetPixel(k, l); }
-            else
-            { resultColor = Color.LightPink; }
-
+                resultColor = sourceImage.GetPixel(k, l); 
+            else         
+                resultColor = Color.LightBlue; 
             return resultColor;
         }
     }

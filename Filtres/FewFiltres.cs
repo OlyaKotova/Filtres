@@ -8,6 +8,7 @@ using System.ComponentModel;
 
 namespace Filtres
 {
+   // public Random rand = New Random();
     abstract class FewFiltres
     {
         

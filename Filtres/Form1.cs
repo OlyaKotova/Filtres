@@ -108,13 +108,13 @@ namespace Filtres
 
         private void sobelToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FewFiltres filter = new Filtrer_of_Sobel();
+            FewFiltres filter = new Sobel();
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
         private void braitnessToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FewFiltres filter = new BraitnessFilter();
+            FewFiltres filter = new BrightnessFilter();
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
@@ -144,7 +144,7 @@ namespace Filtres
 
         private void waves1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FewFiltres filter = new WavesFilter1();
+            FewFiltres filter = new WavesHorizontal();
             backgroundWorker1.RunWorkerAsync(filter);      
         }
 
@@ -157,7 +157,7 @@ namespace Filtres
 
         private void wavesVerticalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FewFiltres filter = new WavesFilter2();
+            FewFiltres filter = new WavesVertical();
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
@@ -169,7 +169,7 @@ namespace Filtres
 
         private void сдвигToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FewFiltres filter = new shift();            
+            FewFiltres filter = new ShiftLeft();            
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
@@ -181,13 +181,72 @@ namespace Filtres
 
         private void shiftRightToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FewFiltres filter = new shift2();
+            FewFiltres filter = new ShiftRight();
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
-        private void greyWorldToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void greaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+                FewFiltres filter = new GreyWorld(image);
+                backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void rightToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FewFiltres filter = new ShiftRight();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void leftToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FewFiltres filter = new ShiftLeft();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void horizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FewFiltres filter = new WavesHorizontal();
+            backgroundWorker1.RunWorkerAsync(filter); 
+        }
+
+        private void wavesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void verticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FewFiltres filter = new WavesVertical();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void pointingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void brightnessToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FewFiltres filter = new BrightnessMinus();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void greyWorldToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             FewFiltres filter = new GreyWorld(image);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void dilationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FewFiltres filter = new Dilation();
+            backgroundWorker1.RunWorkerAsync(filter); 
+        }
+
+        private void erosionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FewFiltres filter = new Erosion();
             backgroundWorker1.RunWorkerAsync(filter);
         }
 

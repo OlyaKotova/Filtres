@@ -7,20 +7,20 @@ using System.Drawing;
 
 namespace Filtres
 {
-    class shift2 : FewFiltres
+    class ShiftLeft : FewFiltres
     {
 
 
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {
-            int par = -50;
+            int par = 50;
 
             Color resultColor;
 
             int k = Clamp(x + par, 0, sourceImage.Width - 1);
             int l = y;
-            if  (k< Math.Abs(par))
-            { resultColor = Color.LightPink; }
+            if ((k < sourceImage.Width) && (k > sourceImage.Width - par))
+            { resultColor = Color.LightBlue; }
             else
             { resultColor = sourceImage.GetPixel(k, l); }
 
@@ -28,4 +28,3 @@ namespace Filtres
         }
     }
 }
-

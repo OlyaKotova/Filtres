@@ -14,9 +14,9 @@ namespace Filtres
         {
             
             Color sourceColor = sourceImage.GetPixel(x, y);
-            int k = Clamp((int)(x+(NewRandon.Next(2)-0.5)*10), 0, sourceImage.Width - 1);
-            int l = Clamp((int)(y+(NewRandon.Next(1)-0.5)*10), 0, sourceImage.Height - 1);
-            
+
+            int k = Clamp((int)(x+(NewRandon.Next(2)-0.5)*15), 0, sourceImage.Width - 1);
+            int l = Clamp((int)(y+(NewRandon.Next(1)-0.5)*15), 0, sourceImage.Height - 1);            
             Color resultColor = sourceImage.GetPixel(k, l);
             return resultColor;
         }

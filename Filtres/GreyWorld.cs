@@ -11,7 +11,7 @@ namespace Filtres
     {
         private float Avg = 0;
         private int Red = 0, Green = 0, Blue = 0;
-        private int size=0;
+        private int size = 0;
 
         public GreyWorld(Bitmap sourceImage)
         {
@@ -27,16 +27,17 @@ namespace Filtres
                     Blue += sourceColor.B;
                 }
             }
-            Avg = (float)((Red + Green + Blue) / (3 * size));
+            Avg = (float)((Red + Green + Blue) / (3*size));
         }
+        
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {
 
             Color sourceColor = sourceImage.GetPixel(x, y);
 
-            int k = Clamp((int)(sourceColor.R * Avg*size /Red),0,255);
-            int l = Clamp((int)(sourceColor.G * Avg*size /Green),0,255);
-            int m = Clamp((int)(sourceColor.B * Avg*size / Blue),0,255);
+            int k = Clamp((int)(sourceColor.R * Avg*size/Red),0,255);
+            int l = Clamp((int)(sourceColor.G * Avg*size/Green),0,255);
+            int m = Clamp((int)(sourceColor.B * Avg*size/Blue),0,255);
 
             Color resultColor = Color.FromArgb(k, l, m);
 

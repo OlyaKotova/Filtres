@@ -25,12 +25,36 @@ F:\Filtres\Filtres\obj\Debug\Filtres.Form1.resources
 F:\Filtres\Filtres\obj\Debug\Filtres.Properties.Resources.resources
 F:\Filtres\Filtres\obj\Debug\Filtres.csproj.GenerateResource.Cache
 F:\Filtres\Filtres\obj\Debug\Filtres.csprojResolveAssemblyReference.cache
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\bin\Debug\Filtres.exe.config
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\obj\Debug\Filtres.exe
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\obj\Debug\Filtres.pdb
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\bin\Debug\Filtres.exe
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\bin\Debug\Filtres.pdb
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\obj\Debug\Filtres.csprojResolveAssemblyReference.cache
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\obj\Debug\Filtres.Form1.resources
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\obj\Debug\Filtres.Properties.Resources.resources
-C:\Users\user\Documents\Visual Studio 2013\Projects\Filtres\Filtres\obj\Debug\Filtres.csproj.GenerateResource.Cache
+C:\Users\tvc\Documents\R\Filtres\Filtres\bin\Debug\Filtres.exe.config
+C:\Users\tvc\Documents\R\Filtres\Filtres\obj\Debug\Filtres.exe
+C:\Users\tvc\Documents\R\Filtres\Filtres\obj\Debug\Filtres.pdb
+C:\Users\tvc\Documents\R\Filtres\Filtres\bin\Debug\Filtres.exe
+C:\Users\tvc\Documents\R\Filtres\Filtres\bin\Debug\Filtres.pdb
+C:\Users\tvc\Documents\R\Filtres\Filtres\obj\Debug\Filtres.csprojResolveAssemblyReference.cache
+C:\Users\tvc\Documents\R\Filtres\Filtres\obj\Debug\Filtres.Form1.resources
+C:\Users\tvc\Documents\R\Filtres\Filtres\obj\Debug\Filtres.Properties.Resources.resources
+C:\Users\tvc\Documents\R\Filtres\Filtres\obj\Debug\Filtres.csproj.GenerateResource.Cache
+D:\CG\Filtres\Filtres\bin\Debug\Filtres.exe.config
+D:\CG\Filtres\Filtres\obj\Debug\Filtres.exe
+D:\CG\Filtres\Filtres\obj\Debug\Filtres.pdb
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\bin\Debug\Filtres.exe.config
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Debug\Filtres.exe
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Debug\Filtres.pdb
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\bin\Debug\Filtres.exe
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\bin\Debug\Filtres.pdb
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Debug\Filtres.csprojResolveAssemblyReference.cache
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Debug\Filtres.Form1.resources
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Debug\Filtres.Properties.Resources.resources
+C:\Users\tvc\Documents\Visual Studio 2012\Projects\Filtres\Filtres\obj\Debug\Filtres.csproj.GenerateResource.Cache
+F:\CG\Filtres\Filtres\bin\Debug\Filtres.exe.config
+F:\CG\Filtres\Filtres\obj\Debug\Filtres.exe
+F:\CG\Filtres\Filtres\obj\Debug\Filtres.pdb
+C:\Users\user\Documents\GitHub\Filtres\Filtres\bin\Debug\Filtres.exe.config
+C:\Users\user\Documents\GitHub\Filtres\Filtres\obj\Debug\Filtres.exe
+C:\Users\user\Documents\GitHub\Filtres\Filtres\obj\Debug\Filtres.pdb
+C:\Users\user\Documents\GitHub\Filtres\Filtres\obj\Debug\Filtres.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Filtres\Filtres\obj\Debug\Filtres.Form1.resources
+C:\Users\user\Documents\GitHub\Filtres\Filtres\obj\Debug\Filtres.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\Filtres\Filtres\obj\Debug\Filtres.csproj.GenerateResource.Cache
+C:\Users\user\Documents\GitHub\Filtres\Filtres\bin\Debug\Filtres.exe
+C:\Users\user\Documents\GitHub\Filtres\Filtres\bin\Debug\Filtres.pdb

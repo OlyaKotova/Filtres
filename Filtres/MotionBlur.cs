@@ -10,7 +10,7 @@ namespace Filtres
     {
         public MotionBlur()
         {
-            int n = 7;
+            int n = 5;
             int sizeX = n;
             int sizeY = n;
 
@@ -19,7 +19,10 @@ namespace Filtres
                 for (int j = 0; j < sizeY; j++)
                 {
                     if (i == j)
-                    { kernel[i, j] = (float)1 / n; break; }
+                    {
+                        kernel[i, j] = (float)1 / n;
+                        break;
+                    }
                 }
 
         }
